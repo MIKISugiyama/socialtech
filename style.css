@@ -41,6 +41,9 @@ header {
 #nav-pc a:hover {
   text-decoration: underline;
 }
+#nav-sp, #menu-sp {
+  display: none;
+}
 
 #main-visual {
   position: relative;
@@ -485,5 +488,118 @@ footer {
 
   #sns > a {
     margin-right: 30px;
+  }
+
+  #main-visual {
+    position: relative;
+    height: 470px;
+  }
+
+  #main-visual > div {
+    text-align: center;
+    height: 280px;
+  }
+
+  #main-visual h1 {
+    font-size: 28px;
+    margin: 90px 0 0 0;
+  }
+  #main-visual > div > p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  #main-visual > img {
+    width: 100%;
+    border-radius: 476px 0 0 0;
+    top: auto;
+    bottom: 0;
+  }
+
+  h2 {
+    margin: 15px 0;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  #mission {
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+
+  #mission-flex {
+    flex-direction: column;
+  }
+
+  #mission-flex > div {
+    width: 100%;
+    margin: 0;
+  }
+
+  #product {
+    margin: 0;
+    padding: 10px 20px 0;
+  }
+
+  #product .product-flex {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #product-left, #product-right {
+    width: 100%;
+    margin: 0;
+  }
+
+  #product-left > div, #product-right > div {
+    height: auto;
+    margin: 0;
+  }
+
+  .product-explain > h3 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+
+  #product-more {
+    text-align: left;
+  }
+
+  #aboutus {
+    margin: 80px 20px;
+  }
+
+  #aboutus > div {
+    flex-direction: column;
+  }
+
+  .culture-table th {
+    font-size: 16px;
+  }
+
+  .culture-table {
+    margin-right: 0;
+    padding-right: 20px;
+    order: 2;
+  }
+
+  .culture-img {
+    width: 100%;
+    order: 1;
+  }  
+
+  .culture-img2 {
+    margin-top: 0;
+  }
+
+  .culture-num {
+    padding: 0;
+  }
+
+  .culture-description {
+    margin: 0;
   }
 }
